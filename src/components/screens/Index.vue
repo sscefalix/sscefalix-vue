@@ -27,9 +27,9 @@ import SkillCard from "../SkillCard.vue";
     </section>
     <section>
       <div class="skills">
-        <SkillCard progress="70" name="VueJS" icon="fa-brands fa-vuejs" iconColor="mediumseagreen" progressColor="mediumseagreen" />
-        <SkillCard progress="40" name="React" icon="fa-brands fa-react" iconColor="#64baff" progressColor="orange" />
-        <SkillCard progress="90" name="Python" icon="fa-brands fa-python" iconColor="#8364ff" progressColor="mediumseagreen" />
+        <SkillCard :progress="70" name="VueJS" icon="fa-brands fa-vuejs" iconColor="mediumseagreen" progressColor="mediumseagreen" />
+        <SkillCard :progress="40" name="React" icon="fa-brands fa-react" iconColor="#64baff" progressColor="orange" />
+        <SkillCard :progress="90" name="Python" icon="fa-brands fa-python" iconColor="#8364ff" progressColor="mediumseagreen" />
       </div>
     </section>
   </main>
