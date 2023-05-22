@@ -29,6 +29,7 @@ const {darkTheme} = useConfig()
 #layout.dark {
     --bg: #161616;
     --color: aliceblue;
+    --color-reverse: #000;
     --card: #1e1d26;
 }
 #layout {
