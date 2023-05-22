@@ -55,10 +55,10 @@
   margin-top: 20px;
 }
 .meta {
-  padding: 4px 8px;
+  padding: 8px 12px;
   border-radius: 4px;
-  color: var(--color-reverse);
-  background-color: lightcoral;
+  color: var(--color);
+  background-color: #363636;
 }
 
 
